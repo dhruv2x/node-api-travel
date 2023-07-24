@@ -25,7 +25,7 @@ app.post('/chatgpt_api', async (req, res) => {
         { role: 'system', content: 'You are a user.' },
         { role: 'user', content: message },
       ],
-      max_tokens: 450,
+      max_tokens: 300,
     };
 
     const headers = {
